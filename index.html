@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mi recetario</title>
+<meta name="description" content="Las recetas de Iván, con fotos y maridaje.">
+<meta name="theme-color" content="#FBEBE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1C1511" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="iconos/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="iconos/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Recetario">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preload" href="fuentes/eb-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"><p class="empty">Cargando recetas…</p></div>
+<div class="update" id="update" role="status" hidden><span>Hay una versión nueva del recetario.</span><button type="button" class="btn" id="update-btn">Actualizar</button></div>
+<script src="vendor/supabase.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

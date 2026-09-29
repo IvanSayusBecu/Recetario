@@ -5,3 +5,7 @@ window.RECETARIO_CONFIG = {
   supabaseUrl: '',
   supabaseAnonKey: ''
 };
+window.RECETARIO_CONFIG = {
+  supabaseUrl: 'https://xxxx.supabase.co',
+  supabaseAnonKey: 'la-clave-larga'
+};

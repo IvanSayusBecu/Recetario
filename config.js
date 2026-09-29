@@ -6,6 +6,6 @@ window.RECETARIO_CONFIG = {
   supabaseAnonKey: ''
 };
 window.RECETARIO_CONFIG = {
-  supabaseUrl: 'https://xxxx.supabase.co',
+  supabaseUrl: 'https://xmhzbthjulnjurxnscfa.supabase.co',
   supabaseAnonKey: 'la-clave-larga'
 };
